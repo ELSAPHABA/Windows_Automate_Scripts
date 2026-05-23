@@ -32,11 +32,11 @@ call npm update -g @google/gemini-cli
 echo [2/4] Updating Antigravity CLI...
 call agy update
 
-:: 2. OpenAI Codex Update
+:: 3. OpenAI Codex Update
 echo [3/4] Updating @openai/codex...
 call npm update -g @openai/codex
 
-:: 3. GitHub Copilot Update
+:: 4. GitHub Copilot Update
 echo [4/4] Updating @github/copilot...
 call npm update -g @github/copilot
 
