@@ -14,4 +14,4 @@ cd /d "%~dp0"
 :: 3. 'start' 명령어로 새 PowerShell 7 창을 띄우고 gemini를 실행합니다.
 :: -NoExit 옵션으로 antigravity 실행 후에도 창이 닫히지 않도록 합니다.
 echo Launching a new PowerShell 7 window and running 'antigravity'...
-start "PowerShell 7 - Gemini" pwsh -NoExit -Command "agy"
+start "PowerShell 7 - Antigravity" pwsh -NoExit -Command "agy"
